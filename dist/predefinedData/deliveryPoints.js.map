@@ -1,0 +1,1 @@
+{"version":3,"file":"deliveryPoints.js","sourceRoot":"","sources":["../../predefinedData/deliveryPoints.ts"],"names":[],"mappings":";;;AAAa,QAAA,cAAc,GAAG;IAC5B;QACE,IAAI,EAAE,QAAQ;QACd,KAAK,EAAE,CAAC;KACT;IACD;QACE,IAAI,EAAE,qBAAqB;QAC3B,KAAK,EAAE,CAAC;KACT;IACD;QACE,IAAI,EAAE,iBAAiB;QACvB,KAAK,EAAE,CAAC;KACT;CACF,CAAC"}

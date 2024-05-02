@@ -1,0 +1,23 @@
+version: '3'
+services:
+  api:
+    build:
+      context: .
+    environment:
+      - DB_NAME=trendyol_case
+      - DB_HOST=db
+      - DB_USERNAME=trendyol_me
+      - DB_PASSWORD=tunaberkalmaci
+      - DB_PORT=5432
+    ports:
+      - 8080:8080
+    command: npm run start:dev
+  db:
+    image: 'postgres'
+    restart: always
+    environment:
+      - POSTGRES_USER=trendyol_me
+      - POSTGRES_PASSWORD=tunaberkalmaci
+      - POSTGRES_DB=trendyol_case
+    ports:
+      - 5432:5432
